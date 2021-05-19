@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header, Icon, Badge } from 'react-native-elements'
 import { StyleSheet, View, Text, TouchableOpacity, TextInput, Image } from 'react-native'
-import Myheader from '../MyComponents/MyHeader'
+import Myheader from '../MyComponents/Myheader'
 
 export default class TranslatedScreen extends React.Component {
 constructor(props){
@@ -46,10 +46,10 @@ componentDidMount(){
                            text="space"
                        }
                     return(   
-                       <View>
-                       <Image source={require('../SIGN LANGUAGE/'+text.toUpperCase()+'.png')}
+                       
+                       <Image source={require('../assets/'+text+'.png')}
                        style={{height:150,width:150}}/>    
-                       </View>
+                       
                    )
                    })  
                    }

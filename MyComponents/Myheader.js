@@ -18,7 +18,7 @@ return(
 
 <Header 
 
-centerComponent={{text:this.props.title,style:{color:'blue',fontSize:13,fontWeight:'bold'}}}
+centerComponent={{text:this.props.title,style:{color:'blue',fontSize:13}}}
 
 backgroundColor='#ff5722'
 />

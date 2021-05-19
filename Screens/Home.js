@@ -31,7 +31,7 @@ allSplit:[]
                         console.log(this.state.sign)
                         this.props.navigation.navigate("Translated",{"text":this.state.sign})
                         }}>
-                        <Text style={{fontWeight:600}}>
+                        <Text>
                             TRANSLATE
                         </Text>
                     </TouchableOpacity>
